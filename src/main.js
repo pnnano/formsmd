@@ -3112,7 +3112,9 @@ class Formsmd {
 				.insertAdjacentHTML("beforeend", instance.template);
 
 			// Highlight code blocks
-			hljs.highlightAll();
+			instance.container.querySelectorAll("pre code").forEach((codeBlock) => {
+				hljs.highlightElement(codeBlock);
+			});
 
 			// Add all the event listeners
 			instance.addEventListeners(instance.container, true);

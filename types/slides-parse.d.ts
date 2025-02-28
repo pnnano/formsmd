@@ -6,7 +6,7 @@
  *
  * - The first slide is the very first slide to render on the template.
  * - Start slides simply use a slightly altered template.
- * - The first slide cannot have a jump condition or a page progress.
+ * - The first slide cannot have a jump condition.
  * - A start slide may or may not be the first slide.
  *
  * @param {string} template
