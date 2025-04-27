@@ -1,7 +1,6 @@
 /*!
  * Forms.md
  * @author Tahmid Khan Nafee <tahmid.hm.dev@gmail.com>
- * @license BUSL-1.1
  * Copyright (c) 2024 Tahmid Khan Nafee
  */
 @keyframes fmd-btn-processing-animation{to{transform:rotate(360deg)}}@keyframes fmd-loader-spinner-animation{to{transform:rotate(360deg)}}@keyframes fmd-loader-progress-animation{0%{background-position:-150%0,-150%0}66%{background-position:250%0,-150%0}to{background-position:250%0,250%0}}.fmd-root{color-scheme:light;--fmd-font-sans-serif:system-ui, -apple-system, "Segoe UI", Roboto,
